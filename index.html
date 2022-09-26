@@ -1,0 +1,88 @@
+<!doctype html>
+<htm>
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="description" content="this is BITM From"/>
+		<meta name="keyword" content="css,javascript,html"/>
+		<meta name="author" content="rakib"/>
+		<meta name="viewport" content="witdh=device-width.initial-scale=1.0"/>
+		<!--add favicon-->
+		<link rel="icon" type="image/x-icon" href="img/.abc.png"/>
+		<!--add css link-->
+		<link rel="stylesheet" type="text/css" href="assets/style.css/css"/>
+	</head>
+	<body>
+	<form>
+		<fieldset>
+			<legend align="center">personalia</legend>
+			<textarea name="massege" rows="10" cols="20">Discription</textarea>
+			
+			<label for="car">choses cars</label>
+			<select id="car" name="cars">
+			<option value="volvo">volvo</option>
+			<option value="toyeta">toyeta</option>
+			<option value="heice">heice</option>
+			<option value="noha">noha</option>
+			</select>
+			
+			<input list="browasers"/>
+			<datalist id="browasers">
+			<option value="inernet exp"/>
+			<option value="crome"/>
+			<option value="mozila"/>
+			<option value="uc browasers"/>	
+			</datalist>
+			
+			<label for="tel">+008</label>
+			<input id="tel" type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}-[0-9]{3}"/>
+			
+			<label for="cname">Chanter name</label>
+			<input name="centername" type="text" id="cname" value="BASIS SEIP" readonly="readonly"/><br/><br/>
+			
+			<label for="fname">First name</label>
+			<input type="text" name="first name" id="fname" value="First name" disable/><br/><br/>
+			
+			<label for="lname">Last name</label>
+			<input type="text" name="Lastname" id="lname" value="Last name"/><br/><br/>
+			
+			<label id="email">E-mail</label>
+			<input type="email" name="email" id="email" placeholder="@gamil.com"/>
+			
+			<label for="name">Password</label>
+			<input type="password" id="name" name="passwoard"/><br/><br/>
+			
+			<label>Gender</label><br/>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="male"/><br/>
+			<label for="fmale">Female</label>
+			<input type="radio" name="gender" id="fmale" value="female"/><br/>
+			<label for="oth">Other</label>
+			<input type="radio" name="gender" id="oth" name="other"/><br/>
+			
+			<input type="checkbox" id="ch" name="check" value="html"/>
+			<label for="ch">HTML</label><br>
+			<input type="checkbox" name="check" id="ck" value="css"/>
+			<label for="ck">CSS</label><br>
+			<input type="checkbox" name="check"id="ck" value="javascript"/>
+			<label for="ck">JAVASCRIPT</label><br/>
+			
+			<input type="button" onclick='alert(Hello World)' value="click me"/><br><br>
+			
+			<label for="num">Number</label>
+			<input type="number" name="number" id="num" min="10" max="30"/><br><br>
+			
+			<label for="fcolor">Select your favcolor<label>
+			<input type="color" name="favcolor" id="fcolor"/>
+			
+			<label for="file">Select your file</label>
+			<input type="file" name="myfile" id="file"/><br><br>
+			
+			<label for="id">Id</label>
+			<input id="id"type="tel"/><br><br>
+			
+			<input type="reset"/>
+			<input type="submit" value="submit"/>
+		</fieldset>
+	</form>
+	</body>
+</html>
